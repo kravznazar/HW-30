@@ -1,0 +1,42 @@
+.div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid darkolivegreen;
+
+    animation-name: move;
+    animation-duration: 5s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes move{
+    0%{
+        top: 0;
+        left: 0;
+        background-color: lavenderblush;
+    }
+
+    25%{
+        top: 0;
+        left: 200px;
+        background-color: lawngreen;
+    }
+
+    50%{
+        top: 200px;
+        left: 200px;
+        background-color: lightcoral;
+    }
+
+    75%{
+        top: 200px;
+        left: 0;
+        background-color: lightgoldenrodyellow;
+    }
+
+    100%{
+        top: 0;
+        left: 0;
+    }
+}
